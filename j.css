@@ -1,0 +1,23 @@
+:root{
+    --cor-de-fundo: #202845;
+    --font-principal: Arial, sans-serif;
+    --cor-da-letra: #fff;
+    --lado-direito: end;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    text-align: center;
+    font: var(--font-principal);
+    color: var(--cor-da-letra);
+    
+}
+.dois{
+    text-align: left;
+}
+.tres{
+    text-align: end;
+}
+.c{
+    grid-template-columns: 50% 50% 50%;
+}
