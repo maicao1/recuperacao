@@ -1,8 +1,9 @@
 :root{
-    --cor-de-fundo: #202845;
+    --cor-de-fundo: #eaecf1;
     --font-principal: Arial, sans-serif;
-    --cor-da-letra: #fff;
+    --cor-da-letra: #0f0f0f;
     --lado-direito: end;
+
 }
 
 body{
@@ -10,14 +11,46 @@ body{
     text-align: center;
     font: var(--font-principal);
     color: var(--cor-da-letra);
-    
 }
+
 .dois{
     text-align: left;
 }
+
 .tres{
-    text-align: end;
+ 
+    text-align: left;
+   
 }
-.c{
-    grid-template-columns: 50% 50% 50%;
+
+
+
+.img { 
+    padding: 7px;
+    background-color: rgb(214, 220, 224);
+    border-radius: 7px;
+}
+
+.p {
+    
+    padding: 7px;
+    background-color: rgb(214, 220, 224);
+    border-radius: 7px; 
+     
+}
+
+.l {
+    background-color: rgb(202, 132, 46) ;
+    padding: 7px;
+    border-radius: 7px;
+    
+    grid-template-columns: 60% 50% 50%;
+    margin-right: 1450px;
+    
+    
+   
+
+  
+
+    
 }
